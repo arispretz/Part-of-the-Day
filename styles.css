@@ -1,0 +1,88 @@
+/* == General style === */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1.5;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  justify-content: center;
+}
+
+.root {
+  min-height: 100%;
+  position: relative;
+}
+
+img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+}
+
+.header-wrapper,
+.main-wrapper,
+.footer-wrapper {
+  width: 85%;
+  margin: auto;
+}
+
+.header-wrapper,
+.main-wrapper {
+  padding: 10px;
+  margin: 2px auto;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 300;
+}
+
+h2,
+h3 {
+  font-weight: 300;
+}
+
+header {
+  background-color: #2AC572;
+  height: 250px;
+}
+
+main {
+  padding: 10px;
+  height: 300px;
+  padding-bottom: 150px;
+  font-weight: 700;
+  font-size: 20px;
+  /* Height of the footer */
+  color: white;
+}
+
+ul {
+  margin-left: 15px;
+}
+
+ul li {
+  list-style: none;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  /* Height of the footer */
+  background-color: #2AC572;
+}
+
+.footer-wrapper {
+  font-weight: 400;
+  text-align: center;
+  line-height: 60px;
+}
